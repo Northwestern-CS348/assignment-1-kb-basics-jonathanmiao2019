@@ -53,7 +53,7 @@ class KBTest(unittest.TestCase):
         self.assertEqual(str(answer[3]), "?X : pyramid2, ?Y : green")
         self.assertEqual(str(answer[4]), "?X : pyramid3, ?Y : red")
         self.assertEqual(str(answer[5]), "?X : pyramid4, ?Y : red")
-        
+
 
 if __name__ == '__main__':
     unittest.main()
